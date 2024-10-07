@@ -1,0 +1,17 @@
+# Python cache files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files that shouldn't be tracked
+/data/*
+!data/market_news_sample.json
+
+# Log files
+*.log
